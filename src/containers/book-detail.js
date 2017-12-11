@@ -3,10 +3,11 @@ import { connect } from 'react-redux';
 
 class BookDetail extends Component {
   render() {
-    return (
+    return this.props.book && (
       <div>
         <h3>Details for: </h3>
-        <span>{ this.props.book.title }</span>
+        <p>{ this.props.book.title }</p>
+        <p>Pages: { this.props.book.pages}</p>
       </div>
     )
   }
