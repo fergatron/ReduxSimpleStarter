@@ -10,3 +10,8 @@ This section (5) deals with creating a weather application that displays 5-day f
 * redux-promise (middleware)
 * axios
 * template strings (es6)
+* react-sparkline - a great line chart tool.
+* react-google-maps
+
+### Notes
+* **redux** always returns a new instance of state. Never manipulate state object directly.
